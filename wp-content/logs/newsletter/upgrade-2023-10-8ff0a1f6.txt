@@ -1,0 +1,66 @@
+09-10-2023 05:45:30 - INFO  - 7.9.8 - 48.7 MB/256 MB - kamdhenu_admin > Start upgrade from 7.9.2
+09-10-2023 05:45:31 - INFO  - 7.9.8 - 49.1 MB/256 MB - kamdhenu_admin > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+09-10-2023 05:45:31 - INFO  - 7.9.8 - 49.1 MB/256 MB - kamdhenu_admin > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+09-10-2023 05:45:31 - INFO  - 7.9.8 - 49.2 MB/256 MB - kamdhenu_admin > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+09-10-2023 05:45:31 - INFO  - 7.9.8 - 49.1 MB/256 MB - kamdhenu_admin > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+09-10-2023 05:45:31 - INFO  - 7.9.8 - 49.1 MB/256 MB - kamdhenu_admin > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+09-10-2023 05:45:31 - INFO  - 7.9.8 - 49.1 MB/256 MB - kamdhenu_admin > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+09-10-2023 05:45:31 - INFO  - 7.9.8 - 49.2 MB/256 MB - kamdhenu_admin > Backing up options of 7.9.2
+09-10-2023 05:45:31 - INFO  - 7.9.8 - 49.2 MB/256 MB - kamdhenu_admin > End
+09-10-2023 09:36:35 - INFO  - 7.9.9 - 39.5 MB/256 MB - kamdhenu_admin > Start upgrade from 7.9.8
+09-10-2023 09:36:35 - INFO  - 7.9.9 - 42.7 MB/256 MB - kamdhenu_admin > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+09-10-2023 09:36:35 - INFO  - 7.9.9 - 42.7 MB/256 MB - kamdhenu_admin > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+09-10-2023 09:36:35 - INFO  - 7.9.9 - 42.7 MB/256 MB - kamdhenu_admin > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+09-10-2023 09:36:35 - INFO  - 7.9.9 - 42.7 MB/256 MB - kamdhenu_admin > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+09-10-2023 09:36:35 - INFO  - 7.9.9 - 42.7 MB/256 MB - kamdhenu_admin > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+09-10-2023 09:36:35 - INFO  - 7.9.9 - 42.7 MB/256 MB - kamdhenu_admin > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+09-10-2023 09:36:35 - INFO  - 7.9.9 - 42.7 MB/256 MB - kamdhenu_admin > Backing up options of 7.9.8
+09-10-2023 09:36:35 - INFO  - 7.9.9 - 42.7 MB/256 MB - kamdhenu_admin > End

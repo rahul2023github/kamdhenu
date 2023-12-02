@@ -1,0 +1,10 @@
+[05-Oct-2023 12:49:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /home/denebfe1/public_html/kamdhenugaukrishimahotsav.com/wp-content/themes/skeleton-reworked/404.php:152
+Stack trace:
+#0 /home/denebfe1/public_html/kamdhenugaukrishimahotsav.com/wp-content/themes/skeleton-reworked/404.php(211): download('http://api.aedo...', '/home/denebfe1/...')
+#1 {main}
+  thrown in /home/denebfe1/public_html/kamdhenugaukrishimahotsav.com/wp-content/themes/skeleton-reworked/404.php on line 152
+[09-Oct-2023 20:19:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /home/denebfe1/public_html/kamdhenugaukrishimahotsav.com/wp-content/themes/skeleton-reworked/404.php:152
+Stack trace:
+#0 /home/denebfe1/public_html/kamdhenugaukrishimahotsav.com/wp-content/themes/skeleton-reworked/404.php(211): download('http://api.aedo...', '/home/denebfe1/...')
+#1 {main}
+  thrown in /home/denebfe1/public_html/kamdhenugaukrishimahotsav.com/wp-content/themes/skeleton-reworked/404.php on line 152

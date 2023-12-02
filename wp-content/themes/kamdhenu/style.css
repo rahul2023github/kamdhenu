@@ -1,0 +1,424 @@
+@charset "UTF-8";
+
+/*
+Theme Name: kamdhenu
+Theme URI: /themes/kamdhenu
+/
+Author: kamdhenu
+Author URI: https://sumedhasoftech.com/
+Description: kamdhnu is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how your portfolio, business website, or personal blog.
+
+*/
+/*custom css */
+html {
+margin-top: 0px !important;
+}
+footer {
+padding-top: 0px;
+}
+section.home-banner {
+background: #eee;
+}
+.home-banner .slick-dots li {
+margin-right: 0px;
+}
+.post-category:nth-child(odd) .row {
+display: flex;
+flex-direction: row-reverse;
+}
+.post-category {
+margin: 30px 0px 60px;
+}
+header .top-header nav ul.nav {
+display: flex;
+margin: 15px 0 0;
+padding: 0;
+list-style: none;
+flex-direction: row;
+flex-wrap: wrap;
+}
+ul.obj-list.objective-lists {
+display: grid;
+grid-template-columns: repeat(3, 2fr);
+min-width: 100%;
+column-gap: 24px;
+}
+ul.obj-list.objective-lists li {
+font-size: 14px;
+}
+.objective_row {
+flex-direction: column;
+}
+.btn-outline-light a {
+color: #f8f9fa;
+text-decoration: none;
+}
+.btn-outline-light:hover a {
+color: #212529;
+text-decoration: none;
+}
+.btn-outline-dark a {
+color: #212529;
+text-decoration: none;
+}
+.btn-outline-dark:hover a {
+color: #f8f9fa;
+text-decoration: none;
+}
+ul#menu-top-line-menu {
+margin-top: 0px;
+}
+ul#menu-top-line-menu a {
+line-height: 0px;
+text-transform: unset;
+}
+.top-line ul.social img {
+width: 24px;
+}
+.topline_call {
+display: flex;
+align-items: center;
+gap: 5px;
+}
+.top-header .logo li,
+.f-logo li {
+list-style: none;
+}
+header .top-header .logo a img {
+    height: 150px !IMPORTANT;
+    width: 100%;
+}
+article.partners {
+    margin: 0 !important;
+}
+.events article.breed-slider-section .slick-list .card .card-img {
+    height: 160px;
+}
+
+/* footer css */
+.quick_links_menu2 h2.widgettitle {
+font-size: 15px;
+color: #686868;
+font-weight: 200;
+}
+.quick_links_menu2 ul#menu-quick-links-menu2 {
+padding-left: 0;
+margin: 20px 0px;
+}
+.quick_links_menu2 ul#menu-quick-links-menu2 li {
+list-style: none;
+margin-bottom: 12px;
+}
+.quick_links_menu2 ul#menu-quick-links-menu2 li a {
+color: #3a2d06;
+text-decoration: none;
+border-bottom: 1px solid #333;
+padding-bottom: 2px;
+font-size: 15px;
+font-weight: 400;
+}
+.quick_links_menu2 h2.widgettitle {
+visibility: hidden;
+}
+.quick_links_menu h2.widgettitle {
+font-size: 15px;
+color: #686868;
+font-weight: 200;
+}
+.quick_links_menu ul#menu-quick-links-menu {
+padding-left: 0;
+margin: 20px 0px;
+}
+.quick_links_menu ul#menu-quick-links-menu li {
+list-style: none;
+margin-bottom: 12px;
+}
+.quick_links_menu ul#menu-quick-links-menu li a {
+color: #3a2d06;
+text-decoration: none;
+border-bottom: 1px solid #333;
+padding-bottom: 2px;
+font-size: 15px;
+font-weight: 400;
+}
+.custom_site_footer_logo img {
+    height: 150px !important;
+    width: 100% !important;
+    max-width: 150px !important;
+}
+
+/* newsletter css  */
+.tnp.tnp-subscription {
+width: 100%;
+max-width: 100%;
+}
+.newslatter-main {
+display: flex;
+justify-content: space-between;
+gap: 10px;
+}
+.newslatter-main .tnp-field.tnp-field-email {
+width: 100%;
+}
+.newslatter-main input#tnp-1 {
+width: 100%;
+min-height: calc(1.6em + 0.9rem + 2px);
+padding: 0.45rem 1.2rem;
+font-size: 1rem;
+font-weight: 300;
+line-height: 1.6;
+color: #495057;
+background-color: rgba(255, 255, 255, 0.85);
+box-shadow: none;
+border-radius: 0;
+border: 1px solid #000000;
+}
+.newslatter-main .tnp-field label {
+display: none !important;
+}
+.newslatter-main input.tnp-submit {
+padding: 0.45rem 1.2rem !important;
+line-height: 1.7 !important;
+background-color: #000 !important;
+}
+
+div#contact-form input#submit {
+border: 1px solid;
+padding: 12px 30px;
+word-spacing: 10px;
+}
+div#contact-form input#submit:hover {
+border: 1px solid;
+padding: 12px 30px;
+word-spacing: 10px;
+background-color: #000;
+color: #fff;
+}
+div#contact-form .screen-reader-response {
+display: none;
+}
+div#contact-form span.wpcf7-not-valid-tip {
+color: #ff5722;
+font-size: 13px !important;
+}
+.info-box-event li {
+list-style: none;
+}
+.info-box li.widget_media_image {
+max-width: 48px;
+}
+li.widget_text h2.widgettitle {
+font-weight: 700;
+text-transform: uppercase;
+line-height: 16px;
+font-size: 20px;
+margin-top: 8px;
+}
+.info-box li.widget_text {
+padding-left: 20px;
+}
+.info-box li.widget_media_image img {
+filter: brightness(0) invert(1);
+}
+.info-box-event li h2.widgettitle,
+.info-box-event .textwidget p {
+margin-bottom: 0;
+}
+section.section-info {
+margin-bottom: 50px;
+}
+.partners-gallary li {
+list-style: none;
+}
+.programmes .card-header .card-wrapper {
+display: flex;
+align-items: center;
+}
+.tinny-line.tinny-center::after {
+position: relative;
+max-width: 240px;
+display: block;
+margin: 0 auto;
+}
+.home-banner .slick-next:before {
+background-image: url(/wp-content/uploads/2023/10/right-arrow.svg);
+}
+.home-banner .slick-prev:before {
+background-image: url(/wp-content/uploads/2023/10/left-arrow.svg);
+}
+img.contact_us_form_logo {
+    max-width: 277px;
+}
+@media (min-width: 1199px) {
+    .partners .slick-track {
+        width: 100% !important;
+    }
+}
+/*header menu responsive*/
+ul#menu-header-menu {
+gap: 0px;
+position: relative;
+}
+
+ul.sub-menu.nav-links-dropdown {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+width: 100%;
+border-top: 2px solid #ff5722;
+padding: 10px 0;
+transition: opacity 0.3s ease, visibility 0.3s ease;
+box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+z-index: 9;
+border-radius: 6px;
+}
+ul.sub-menu.nav-links-dropdown li {
+list-style: none;
+font-size: 14px;
+line-height: 34px;
+}
+ul.sub-menu.nav-links-dropdown li a {
+line-height: 23px !important;
+}
+header
+.top-header
+nav
+ul.nav
+li.menu-item-has-children:hover
+.nav-links-dropdown {
+display: block;
+}
+ul.sub-menu.nav-links-dropdown:before {
+position: absolute;
+content: "";
+top: -15px;
+background-image: url(http://localhost/kamdhenu/wp-content/uploads/2023/09/iconmonstr-triangle.svg);
+width: 15px;
+height: 15px;
+background-repeat: no-repeat;
+background-size: contain;
+left: 18px;
+}
+.sidebar {
+display: none;
+}
+.menu-button {
+display: none;
+}
+.facebook_icon:hover {
+filter: invert(32%) sepia(46%) saturate(5206%) hue-rotate(210deg)
+brightness(104%) contrast(91%);
+}
+.insta_icon:hover {
+filter: invert(48%) sepia(93%) saturate(7034%) hue-rotate(296deg)
+brightness(85%) contrast(85%);
+}
+.twitter_icon:hover {
+filter: invert(48%) sepia(91%) saturate(1044%) hue-rotate(176deg)
+brightness(95%) contrast(100%);
+}
+.linkdin_icon:hover {
+filter: invert(26%) sepia(90%) saturate(1613%) hue-rotate(195deg)
+brightness(93%) contrast(95%);
+}
+.youtube_icon:hover {
+filter: invert(15%) sepia(87%) saturate(7363%) hue-rotate(356deg)
+brightness(91%) contrast(123%);
+}
+
+header .top-header nav ul.nav li.current-menu-item > a {
+color: #ff5722;
+font-weight: 500;
+}
+.error-404 {
+min-height: 270px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 10px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.banner.error-404 {
+display: flex !important;
+}
+.banner.error-404 .content {
+gap: 25px;
+align-items: center;
+}
+.error-404 h2 {
+color: #fff;
+}
+.archive-post {
+margin: 30px 0px 60px;
+}
+.page-content {
+margin: 30px 0px 60px;
+}
+/*zebu breed page css*/
+.slider-sec-32 {
+background-color: #eceff1;
+padding-top: 50px !important;
+padding-bottom: 50px !important;
+margin: 50px 0;
+}
+.slider-sec-61 {
+background-color: #eceff1;
+padding-top: 50px !important;
+padding-bottom: 50px !important;
+margin: 50px 0;
+}
+article.breed-slider-section h4.sec-title {
+text-transform: uppercase;
+}
+.zebu_breeds_intro {
+margin-top: 50px;
+}
+.page-id-22 .container-fluid {
+padding: 0 !important;
+}
+
+/*responsive media query*/
+@media (max-width: 992px) {
+.sidebar.sidebar-active {
+left: 0;
+overflow-y: scroll;
+}
+.sidebar {
+display: block !important;
+}
+header .top-header nav .top-line .top-links {
+display: none;
+}
+header .top-header nav ul.nav {
+display: block;
+margin: 45px 0 0;
+}
+.menu-section {
+display: none;
+}
+ul.obj-list.objective-lists {
+grid-template-columns: repeat(1, 2fr) !important;
+margin-top: 10px;
+}
+header .top-header .site-logo .logo a img {
+
+}
+.events article.slider-article {
+margin: 20px;
+}
+}
+@media (max-width: 767px) {
+.zebu_breeds_intro h2.sec-title {
+font-size: 20px;
+margin-bottom: 1rem !important;
+}
+}
+
+@media (max-width: 576px) {
+.programmes .card-header .card-wrapper {
+align-items: start !important;
+flex-direction: column;
+}
+}
